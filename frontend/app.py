@@ -3,7 +3,7 @@ import requests
 
 st.title("Frontend Streamlit")
 
-backend_url = "https://cc2025-api-b2btduguh5cmdxbn.northeurope-01.azurewebsites.net/api/data"
+backend_url = "https://backendcloudcomputing-a4f4c6cvdcdsghaf.norwayeast-01.azurewebsites.net/api/data"
 
 try:
     response = requests.get(backend_url)
