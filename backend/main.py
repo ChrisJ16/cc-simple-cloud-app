@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# Permite cereri de la frontend (React, Angular etc.)
+# Allow all origins for CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

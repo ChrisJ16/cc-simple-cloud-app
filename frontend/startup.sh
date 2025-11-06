@@ -1,8 +1,7 @@
 #!/bin/#!/bin/bash
-# intră în folderul frontend
 
-# instalează toate dependențele
+# install all necessary dependencies
 pip install -r requirements.txt
 
-# pornește aplicația Streamlit
+# start the streamlit demo app
 streamlit run app.py --server.port $PORT --server.address 0.0.0.0
