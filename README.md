@@ -52,3 +52,7 @@ Example data message:
   "sensor_value": 25
 }
 ```
+
+# System diagram
+
+![alt text](/diagrams/assigment1_diagram.png "System diagram")
